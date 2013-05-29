@@ -10,7 +10,8 @@ group :development do
 end
 
 group :test do
-	gem 'rspec', '>=2.0.0'
+	gem 'rspec-rails', '>= 2.0.0'
+	gem 'webrat', '>= 0.7.3'
 end
 
 # Gems used only for assets and not required
